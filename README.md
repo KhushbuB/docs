@@ -18,10 +18,3 @@ The automation helps the globe lead the nation forward and work efficiently. The
 
 
 - **_Chapter 2_**: The openstack basics are introduced in this chapter. Installation of Openstack using packstack and its configuration is also mentioned. You may also look for launching an Instance in Openstack and the integration of Openstack with ManageIQ.
-
-### Conventions
-- The chapter names are mentioned in H1 bold tag at top of the page.
-- All the important titles are mentioned in bold letters with H3 tag.
-- The notes are given in a box.
-- Version are mentioned in the italic style.
-- Important text is underlined.
