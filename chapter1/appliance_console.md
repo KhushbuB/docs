@@ -14,7 +14,7 @@ Appliance Console is the command line ManageIQ configuration platform. To access
 - This will login us to the VM with the previous login session details.
 - We will enter "appliance_console" for menu options.
 
-![Fig 1-Appliance_Console](https://cdn.pbrd.co/images/H34eWor.png "Fig 1(1.3) Appliance_Console")
+![Fig 1-Appliance_Console](../images/chapter1/appliance_console1.png "Fig 1(1.3) Appliance_Console")
 
 - After entering the terminal we can see the summary information of the virtual machine.
 - We can view menu or advanced settings to configure after clicking any key.
@@ -24,7 +24,7 @@ Appliance Console is the command line ManageIQ configuration platform. To access
 
 Summary information states the current status of our ManageIQ virtual machine. Lets see some of them briefly.
 
-![Fig 2-Summary Information](https://cdn.pbrd.co/images/H388DZH.png "Fig 2(1.3) Summary Information")
+![Fig 2-Summary Information](../images/chapter1/appliance_console2.png "Fig 2(1.3) Summary Information")
 
 #### Hostname
 This is a hostname specified for the ManageIQ appliance. We can change this using advanced settings.
