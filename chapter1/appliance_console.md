@@ -1,6 +1,3 @@
-- appliance_console
-- setup, configration using appliance_console
-  with commands
 - Issue: database disk - /dev/sdb
   (http://talk.manageiq.org/t/changing-the-default-database-to-dev-sdb/2495/4)\
 
@@ -10,30 +7,33 @@ Appliance Console is the command line ManageIQ configuration platform. To access
 
 ### Configuration setting
 - Start the appliance with virtual machine and this opens a terminal console.
-- We need to login through a SSH key or the authentication credentials i.e. Hostname and Password.
+- We need to login with the authentication credentials i.e. Username and Password.
 - This will login us to the VM with the previous login session details.
-- We will enter "appliance_console" for menu options.
+- We will enter `appliance_console` for menu options.
 
-![Fig 1-Appliance_Console](../images/chapter1/appliance_console1.png "Fig 1(1.3) Appliance_Console")
+![Fig 1-Appliance_Console](../images/chapter1/appliance_console1.png "Appliance_Console")
 
-- After entering the terminal we can see the summary information of the virtual machine.
+- After entering the command we can see the summary information of the virtual machine.
 - We can view menu or advanced settings to configure after clicking any key.
-- We will get a list of 18 different options to configure ManageIQ. We just need to select the number associated with the item we wish to work on and the furthur things will be prompted by the console itself. This we will be studing here.
+- We will get a list of 18 different options to configure ManageIQ. We just need to select the number associated with the item we wish to work on and the further things will be prompted by the console itself. This we will be studing here.
+
+| Note | We can also login through SSH. For that we require IP address. We can use the command `ssh username@ipaddress` like in this case `ssh root@192.168.188.187`
+|------|:------|
 
 ### Summary Information
 
 Summary information states the current status of our ManageIQ virtual machine. Lets see some of them briefly.
 
-![Fig 2-Summary Information](../images/chapter1/appliance_console2.png "Fig 2(1.3) Summary Information")
+![Fig 2-Summary Information](../images/chapter1/appliance_console2.png "Summary Information")
 
 #### Hostname
 This is a hostname specified for the ManageIQ appliance. We can change this using advanced settings.
 
 #### IPV4 Address
-This is a address which is used to access ManageIQ dashboard by a web browser. That we will be studing in chapter 1.4.
+This is a address which is used to access ManageIQ dashboard by a web browser. That we will be studing in [chapter 1.4](configuration.md).
 
 #### Timezone
-It status the time zone which we prefer for our ManageIQ virtual machine. We can change the timezone and that we will be studing it furthur.
+It states the time zone which we prefer for our ManageIQ virtual machine. We can change the timezone and that we will be studing it furthur.
 
 #### Local Database Server
 It states that the local database server is running or not running currently i.e. the state of the local database server.
@@ -45,10 +45,10 @@ The ManageIQ server status can be identified from this whether it is active or n
 ### Advanced Settings in ManageIQ
 The moment you login, after Summary information you will receive a set of advanced options for configuring ManageIQ. Lets discuss them in brief.
 
-![Fig 3-Advanced Settings](../images/chapter1/appliance_console3.png "Fig 3(1.3) Advanced Settings")
+![Fig 3-Advanced Settings](../images/chapter1/appliance_console3.png "Advanced Settings")
 
 #### 1. Configure Network
-Option 1 lets us configure the network essentials. It includes the DHCP Network Configuration, Set Static Network, Test Network Configuration and Set Hostname.
+Option 1 lets us configure the network essentials. It includes the *DHCP Network Configuration*, *Set Static Network*, *Test Network Configuration and Set Hostname*.
 
 #### 2. Set Timezone
 This helps us to configure the timezone for the appliance console.
@@ -102,4 +102,5 @@ Option 17 gives us the complete status of your virtual machine that we have alre
 
 #### 18.Quit
 Quit option helps us leave the ManageIQ application console
+
 
