@@ -17,7 +17,7 @@ Appliance Console is the command line ManageIQ configuration platform. To access
 - We can view menu or advanced settings to configure after clicking any key.
 - We will get a list of 18 different options to configure ManageIQ. We just need to select the number associated with the item we wish to work on and the further things will be prompted by the console itself. This we will be studing here.
 
-| Note | We can also login through SSH. For that we require IP address. We can use the command `ssh username@ipaddress` like in this case `ssh root@192.168.188.187`
+| Note | We can also login through SSH. For that we require IP address. We can use the `ssh` command in our case <br> `ssh root@192.168.188.187`
 |------|:------|
 
 ### Summary Information
