@@ -33,7 +33,7 @@ This is a hostname specified for the ManageIQ appliance. We can change this usin
 This is a address which is used to access ManageIQ dashboard by a web browser. That we will be studing in [chapter 1.4](configuration.md).
 
 #### Timezone
-It states the time zone which we prefer for our ManageIQ virtual machine. We can change the timezone and that we will be studing it furthur.
+It states the time zone which we prefer for our ManageIQ virtual machine. We can change the timezone and that we will be studing it further.
 
 #### Local Database Server
 It states that the local database server is running or not running currently i.e. the state of the local database server.
@@ -102,5 +102,3 @@ Option 17 gives us the complete status of your virtual machine that we have alre
 
 #### 18.Quit
 Quit option helps us leave the ManageIQ application console
-
-
