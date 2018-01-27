@@ -101,7 +101,9 @@ Option 17 gives us the complete status of your virtual machine that we have alre
 Quit option helps us leave the ManageIQ application console
 
 <br>
-***
+****
+
+
 ### Issue Faced
 
 The issue faced in this section was regarding the sdb i.e. Standalone DataBase. We specifically wanted our own separate disk as database.
@@ -115,5 +117,5 @@ opt-rh-rh\\x2dpostgresql95-lib-pgsql.mount.
 
 At the end we had to work with the default database.
 
----
+****
 <br>
