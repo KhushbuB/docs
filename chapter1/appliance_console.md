@@ -102,3 +102,21 @@ Option 17 gives us the complete status of your virtual machine that we have alre
 
 #### 18.Quit
 Quit option helps us leave the ManageIQ application console
+
+<br>
+***
+### Issue Faced
+
+The issue faced in this section was regarding the sdb i.e. Standalone DataBase. We specifically wanted our own separate disk as database.
+
+For that we configured database with 20GB disk and tried creating internal database but we were able to see only sdb.
+
+![Fig 4-Issue_/dev/sdb](../images/chapter1/issue_sdb.png "Issue - /dev/sdb")
+
+We tried to `resetDatabase` but it did not work due to systemd's var-
+opt-rh-rh\\x2dpostgresql95-lib-pgsql.mount.
+
+At the end we had to work with the default database.
+
+---
+<br>
