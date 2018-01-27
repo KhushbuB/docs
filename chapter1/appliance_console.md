@@ -1,6 +1,3 @@
-- Issue: database disk - /dev/sdb
-  (http://talk.manageiq.org/t/changing-the-default-database-to-dev-sdb/2495/4)\
-
 ## Appliance Console
 
 Appliance Console is the command line ManageIQ configuration platform. To access ManageIQ configuration through this, we need to start the appliance with using SSH key or login credentials.
