@@ -17,9 +17,11 @@ Navitage to **Compute -> Clouds -> Providers** and then go to **Configuration ->
 
 - Choose type as "OpenStack" platform from the type list.
 
-- Select a API version of your OpenStack  provider's Keystone service from the list. The default is Keystone V2.
+- Select a API version of your OpenStack  provider's Keystone service from the list. The default is Keystone v2.
 
-- Next is to select a zone for a provider. Choose whichever is appropriate. By default it is default.
+- Next is to select a zone for a provider. Choose whichever is appropriate. By default, it is default.
+-
+- By default Tenant Mapping is Disabled but you need to enable it.
 
 ![Fig 1-Add OpenStack Provider](../images/chapter2/Add_OpenStack_Provider.png "Add OpenStack Provider")
 
@@ -35,7 +37,7 @@ In Default tab, We need to configure the host and authenticate  details of OpenS
 
 - Fill in the credentials in Username and password field. The usrename must be privileged and its corresponding password.
 
-| Note |You will get the password in keystonerc_admin file in /root directory.|
+| Note |In OpenStack platform, You will get the password in keystonerc_admin file in /root directory.|
 |------|:------|
 
 - Validate the details to make sure that ManageIQ can connect to OpenStack provider.
@@ -48,7 +50,7 @@ In Events tab under Endpoints section, We need to configure how ManageIQ should 
 
 - If you want to use Telemetry service by the OpenStack provider, Select Ceilometer event service.
 
-| Note |To use Ceilometer service you must configure the *notification_driver*. To do so edit the *undercloud.conf* and set `store_events = true` |
+| Note |To use Ceilometer service you must configure the *notification_driver*. To do so edit the *etc/ceilometer/ceilometer.conf* and set `store_events = true` |
 |------|:------|
 
 ![Fig 3-Add OpenStack Provider-Event Tab](../images/chapter2/Add_OpenStack_Provider-Event_Tab.png "Add OpenStack Provider - Event Tab")
@@ -81,7 +83,7 @@ You can walk through all these things by just clicking on it.
 
 We faced a issue after the integration of the OpenStack provider. Even after the integration, the details and information of OpenStack provider like instances, images, network, etc were not displayed.
 
-But later we discovered that there were compatibility issues of *Fog Library* in the OpenStack provider with ManageIQ and fog is the plugin of Ruby Gem to talk to OpenStack clouds.
+But later we discovered that there were compatibility issues of *Fog Library* in the OpenStack provider with ManageIQ and fog is the Ruby cloud services library to talk to OpenStack clouds.
 
 So it was a need to change the OpenStack version so we downgraded the OpenStack-Pike to OpenStack-Ocata.
 
