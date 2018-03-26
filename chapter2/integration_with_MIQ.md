@@ -3,7 +3,9 @@
 
 After the entire installation and configuration of OpenStack provider, It must be integrated with ManageIQ.
 
-Providers are grouping of management systems. Management systems are at the center of ManageIQ's provider integration story. In ManageIQ, managers are the external management systems but later providers began managing more than one type of main resource, it became clear that providers can be broken down into separate managers.
+ManageIQ can manage a variety of external environments, known as providers and managers.
+
+A provider or manager is any system that ManageIQ integrates with for the purpose of collecting data and performing operations.
 
 ### Add OpenStack Provider
 
