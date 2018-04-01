@@ -14,13 +14,16 @@ After the integration of OpenStack provider with ManageIQ, It is the time to ena
 
 ![Fig 1-EmbeddedAnsible Role](../images/chapter3/EmbeddedAnsible_Role.png "EmbeddedAnsible Role")
 
-| Note |ManageIQ will create events about EmbeddedAnsible activation. This will take some time upto 5 - 10 mins.|
+| Note |This will take some time depending on the internet speed and appliance specifications.|
 |------|:------|
 
-You can check the status of the task in ManageIQ by navigating to **Administrator|EVM -> Tasks -> All Tasks tab** .
-You can also check that whether the EmbeddedAnsible role has started or not by `rake evm:status`.
+ManageIQ will generate events about EmbeddedAnsible activation in notification section.
 
-| Warning |If the Server Role is not started, do check the `evm.log` and `automation.log` files.|
+You can check the status of the task in ManageIQ by navigating to **Administrator|EVM -> Tasks -> All Tasks tab**.
+
+You can also check that whether the EmbeddedAnsible role has started or not by `vmdb; rake evm:status`.
+
+| Warning |If the Server Role is not started, do check the `log/evm.log` and `log/automation.log` files after execution of `vmdb`.|
 |------|:------|
 
 ### Add Repository
