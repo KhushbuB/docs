@@ -90,7 +90,6 @@ After the creation of catalog you need to add items to this catalog. For that,
 8. Enable the option of displayimg the item in catalog. By default it is disabled.
 
 9. Select the catalog you wish to work on and have been added before as we have seen it previously.
-
 ![Add Catalog Item](../images/chapter4/Add_Catalog_Item.png "Add Catalog Item")
 
 10. Select the repo you want your catalog item to run on. We have already added this repo in [**_chapter_3_**](chapter_3/embedded_ansible.md).
@@ -114,3 +113,33 @@ After the creation of catalog you need to add items to this catalog. For that,
 ![Add Catalog Item Provisioning Tab](../images/chapter4/Add_Catalog_Item_Provisioning_Tab.png "Add Catalog Item Provisioning Tab")
 
 This will show you the details about the catalog. You can view the brief summary of the catalog right from its creation, number of playbooks, etc on just click.
+
+### Ordering Service
+
+So now you are almost done with everything like Dialog, Creating a catalog, Catalog item and now it is time to order our service. For this,
+
+1. Travel to Service Catalog section by **Services &rarr; Catalogs **. In this section you can see the list of services that are ready to order.
+
+2. In our case *Create External Network* service catalog is ready to order.
+
+3. Click on the order button and go ahead.
+![Order Service](../images/chapter4/Order_Service.png "Order_Service")
+
+4. You will land on the dialog page that we have already added. A user has to fill in all the details for ordering a service.
+
+5. Fill in the appropriate name for the network.
+
+6. Select a OpenStack host from the drop down list.
+
+7. Fill in the required credentials. This is done by the machine itself.
+
+8. Select SSH settings for the network you are creating. By default, it is false.
+
+9. Click the Submit button to proceed your request.
+![Service Dialog To Order](../images/chapter4/Service_Dialog_To_Order.png "Service_Dialog_To_Order")
+
+You could see the task for the ordered service in the Requests section with all the details like request id, requester, type of request, state of order, creation date etc.
+
+| Note |This will take some time depending on the internet speed and appliance specifications.|
+|------|:------|
+
