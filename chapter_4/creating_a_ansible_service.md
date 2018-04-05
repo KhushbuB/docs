@@ -17,7 +17,7 @@ Problems faced
 2. stuck Check_Provision step after ordering service.
 
 
-<br>
+
 ## Creating a Ansible Service
 
 Ansible is the main pillar for the automation and playbooks are its essential part. Till now we have seen the Enabling of Ansible in ManageIQ, To get the entire picture lets walk through it.
@@ -83,11 +83,11 @@ After the creation of catalog you need to add items to this catalog. For that,
 
 5. Select *Ansible playbook* as a catalog item type from the dropdown menu.
 
-6. Add a appropriate name to the catalog item which ever you think is good.
+6. Add a appropriate name to the catalog item what ever you think is good.
 
 7. Give a discription to this catalog item.
 
-8. Enable the option of displayimg the item in catalog. By default it is disabled.
+8. Enable the option of displaying the item in catalog. By default it is disabled.
 
 9. Select the catalog you wish to work on and have been added before as we have seen it previously.
 ![Add Catalog Item](../images/chapter4/Add_Catalog_Item.png "Add Catalog Item")
@@ -110,7 +110,7 @@ After the creation of catalog you need to add items to this catalog. For that,
 
 18. Select the add button to save the changes.
 
-![Add Catalog Item Provisioning Tab](../images/chapter4/Add_Catalog_Item_Provisioning_Tab.png "Add Catalog Item Provisioning Tab")
+![Add Catalog Item Provisioning Tab](../images/chapter4/Add_Catalog_Item_Provisioning_Tab.png "Add Catalog Item-Provisioning Tab")
 
 This will show you the details about the catalog. You can view the brief summary of the catalog right from its creation, number of playbooks, etc on just click.
 
@@ -143,3 +143,15 @@ You could see the task for the ordered service in the Requests section with all 
 | Note |This will take some time depending on the internet speed and appliance specifications.|
 |------|:------|
 
+
+<br>
+
+---
+
+### Issue Faced
+
+We faced the issue related the Generic Server Error. We are still working on it. The error is filed at ManageIQ as well.
+
+![Generic Server Error](../images/chapter4/Generic_Server_Error.png "Generic Server Error")
+---
+<br>
