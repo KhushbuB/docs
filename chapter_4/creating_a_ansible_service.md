@@ -1,24 +1,4 @@
-- Ansible playbook in Service Catalog item
-- Use-case (Service that create External network in OpenStack)
-
-Service Creation-
-- Creating and Importing Service Dialog
-- Importing and Enabling custom domain
-- Creating Catalog
-- Adding catalog item of type Ansible-playbook
-
-Ordering Service
-- Provision the new service
-- Retire service
-
-Problems faced
-1. Script Error in Dialog
-    - Need to import domin properly and enabling it. Also it should at highest priority
-2. stuck Check_Provision step after ordering service.
-
-
-
-## Creating a Ansible Service
++## Creating a Ansible Service
 
 Ansible is the main pillar for the automation and playbooks are its essential part. Till now, we have seen the enabling of Ansible in ManageIQ; to know the entire picture, lets walk through it.
 
@@ -37,6 +17,7 @@ As till now, you have done with the integration and enabling of Embedded Ansible
 3. Select the dialog file from the playbook in the Choose file field.
 
 4. Click on Upload button to import the dialog file.
+<br> <br>
 ![Import Dialog](../images/chapter4/Import_Dialog.png "Import Dialog")
 
 5. You will get a list of service dialogs.
@@ -49,7 +30,7 @@ As till now, you have done with the integration and enabling of Embedded Ansible
 
 You can view the service dialog in graphical view in the *Service Dialogs* section. You can see the list of service dialogs here and you can go through it by just on a click.
 
-In our case, this service is for Creation of External Network that would collect the details from the user like network name, OpenStack host, Its credentials and SSL options.
+In our case, this service is for creation of external network that would collect the details from the user like network name, OpenStack host, its credentials and SSL options.
 
 ![Service Dialog](../images/chapter4/Service_Dialog.png "Service Dialog")
 
