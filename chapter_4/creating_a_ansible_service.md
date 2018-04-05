@@ -1,4 +1,4 @@
-+## Creating a Ansible Service
+## Creating a Ansible Service
 
 Ansible is the main pillar for the automation and playbooks are its essential part. Till now, we have seen the enabling of Ansible in ManageIQ; to know the entire picture, lets walk through it.
 
@@ -54,7 +54,7 @@ Next, it is required to create a catalog. For this, follow these steps
 
 After the creation of catalog you need to add items to this catalog. For that,
 
-1. Select the Catalog Items section in **Services &rarr; Catalogs **.
+1. Select the Catalog Items section in **Services &rarr; Catalogs**.
 
 2. Here, you can see a list of catalogs created.
 
@@ -89,7 +89,7 @@ After the creation of catalog you need to add items to this catalog. For that,
 
 17. Select the added service dialog for the catalog item.
 
-18. Select the add button to save the changes.
+18. Select the Add button to save the changes.
 
 ![Add Catalog Item Provisioning Tab](../images/chapter4/Add_Catalog_Item_Provisioning_Tab.png "Add Catalog Item-Provisioning Tab")
 
@@ -99,11 +99,12 @@ This will show you the details about the catalog. You can view the brief summary
 
 So now, you are almost done with everything like Dialog, Creating a catalog, Catalog item and now it is time to order our service. For this,
 
-1. Travel to Service Catalog section by **Services &rarr; Catalogs **. In this section you can see the list of services that are ready to order.
+1. Travel to *Service Catalog* section by **Services &rarr; Catalogs**. In this section you can see the list of services that are ready to order.
 
 2. In our case *Create External Network* service catalog is ready to order.
 
-3. Click on the order button and go ahead.
+3. Click on the Order button and go ahead.
+<br> <br>
 ![Order Service](../images/chapter4/Order_Service.png "Order_Service")
 
 4. You will land on the dialog page that we have already added. A user has to fill in all the details for ordering a service.
