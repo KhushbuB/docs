@@ -115,15 +115,12 @@ So now, you are almost done with everything like Dialog, Creating a catalog, Cat
 
 7. Fill in the required credentials. This is done by the machine itself.
 
-8. Select SSH settings for the network you are creating. By default, it is false.
+8. Select SSL settings for the network you are creating. By default, it is false.
 
 9. Click the Submit button to proceed your request.
 ![Service Dialog To Order](../images/chapter4/Service_Dialog_To_Order.png "Service_Dialog_To_Order")
 
 You could see the task for the ordered service in the Requests section with all the details like request id, requester, type of request, state of order, creation date etc.
-
-| Note |This will take some time depending on the internet speed and appliance specifications.|
-|------|:------|
 
 
 <br>
