@@ -60,6 +60,11 @@ its appliance console and basic configuration is also discussed.
 and its configuration is also mentioned. You may also look for launching
 an instance in OpenStack and the integration of OpenStack with ManageIQ.
 
+
+- [**_Chapter 3_**](chapter_3/README.md): The entire chapter talks about the importance of Ansible and its vital role in automation. It walks through the entire procedure to enable the ManageIQ's inbuilt feature of EmbeddedAnsible and as well introduced the AWX in the picture.
+
+- [**_Chapter 4_**](chapter_4/README.md): This is the final step towards the target. Here you will go through variety of new concepts of catalog, catalog items, etc. The user end view for ordering the service will also be introduced in this chapter. It also talks about the critical issues faced.
+
 ### Resources
 
 - Project Reference -
@@ -99,3 +104,11 @@ This symbol shows the issues or the problems faced in that section.
 | Note | This form shows up a specific note.|
 |------|:------|
 
+| Info | Information will be displayed in this part.|
+|------|:------|
+
+| Tip | This form will indicate a tip.|
+|------|:------|
+
+| Warning | This form will indicate a warning.|
+|------|:------|
